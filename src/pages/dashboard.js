@@ -53,7 +53,7 @@ const Dashboard = () => {
                         /><br />
                     {errors && errors.url && (<span style={{ color: "red" }}>{errors.url}</span>)}
                 </div>
-                <button type="submit">Make it short!</button>
+                <button className='buttonStyle' type="submit">Make it short!</button>
             </form>
             {
                 shortenUrl && <h3>Shorten URL: <a href={shortenUrl}>{shortenUrl}</a></h3>

@@ -40,3 +40,11 @@
 .container {
   margin: 30px 100px 0 100px;
 }
+
+.buttonStyle {
+  height: 30px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 150px;
+}
